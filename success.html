@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Success</title>
+</head>
+<body>
+	<h1>Registration Successful</h1>
+	<p>Thank you for registering! Your information has been saved.</p>
+	<p>Name: <?php echo $_SESSION['name']; ?></p>
+	<p>Email: <?php echo $_POST['email']; ?></p>
+	<p>Profile Picture: <?php echo $new_file_name; ?></p>
+	<a href="users.php">View all users</a>
+</body>
+</html>
